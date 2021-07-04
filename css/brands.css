@@ -175,7 +175,7 @@ button:hover,
 /* SoundCloud */
 .button.button-soundcloud {
   color: #FFFFFF;
-  background-color: #ff5500 }
+  background-color: #ff5501 }
 .button.button-soundcloud:hover,
 .button.button-soundcloud:focus {
   filter: brightness(90%) }
@@ -215,7 +215,7 @@ button:hover,
 /* Tumblr */
 .button.button-tumblr {
   color: #FFFFFF;
-  background-color: #131313 }
+  background-color: #131613 }
 .button.button-tumblr:hover,
 .button.button-tumblr:focus {
   filter: brightness(90%) }
