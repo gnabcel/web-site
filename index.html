@@ -81,9 +81,9 @@
         </div>
         <div class="hero-photo-wrap">
           <div class="hero-photo-ring"></div>
-          <div class="hero-photo">
+          <button class="hero-photo" id="hero-photo-btn" aria-label="Portrait of Guido Nahuel Aspauzo Baez" type="button">
             <img src="images/avatar.jpg" srcset="images/avatar@2x.jpg 2x" alt="Portrait of Guido Nahuel Aspauzo Baez">
-          </div>
+          </button>
         </div>
       </div>
       <div class="scroll-cue"><span>scroll</span><span class="bar"></span></div>
@@ -297,6 +297,21 @@
   <footer>
     <p>Designed &amp; built by Guido Nahuel Aspauzo Baez. Source on <a href="https://github.com/gnabcel/web-site" target="_blank" rel="noopener">GitHub</a>.</p>
   </footer>
+
+  <div class="game-overlay" id="game-overlay" role="dialog" aria-modal="true" aria-label="Secret snake game">
+    <div class="game-card glass">
+      <div class="game-head">
+        <span>🥚 You found it — quick game of Snake?</span>
+        <button class="game-close" id="game-close" aria-label="Close game">✕</button>
+      </div>
+      <div class="game-scores">
+        <span>Score: <b id="game-score">0</b></span>
+        <span>Best: <b id="game-best">0</b></span>
+      </div>
+      <canvas id="game-canvas" width="300" height="300"></canvas>
+      <p class="game-hint">Arrow keys / WASD to move · swipe on mobile</p>
+    </div>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
