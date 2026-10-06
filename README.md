@@ -1,4 +1,4 @@
-# Guido Aspauzo Baez — Portfolio
+# Guido Nahuel Aspauzo Baez — Portfolio
 
 Personal portfolio site: hero, about, experience timeline, skills, project highlights, and contact — built as a single static page, no build step required.
 
